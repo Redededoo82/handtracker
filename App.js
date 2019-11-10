@@ -1,4 +1,5 @@
-navigator.getUserMedia = navigator.getUserMedia ||
+navigator.getUserMedia =
+    navigator.getUserMedia ||
     navigator.webkitGetUserMedia ||
     navigator.mozGetUserMedia ||
     navigator.msGetUserMedia;
@@ -15,7 +16,7 @@ handTrack.startVideo(video)
             navigator.getUserMedia({ video: {} }, stream => {
                 video.srcObject = stream;
             },
-                err => console.log(err)
+                err => console.log(err),
 
             );
         }
