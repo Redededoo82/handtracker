@@ -1,0 +1,19 @@
+{
+  "name": "handtracker",
+  "version": "1.0.0",
+  "description": "run it on localhost:5500",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Redededoo82/handtracker.git"
+  },
+  "author": "aaron marcks",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Redededoo82/handtracker/issues"
+  },
+  "homepage": "https://github.com/Redededoo82/handtracker#readme"
+}
