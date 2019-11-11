@@ -2,7 +2,7 @@ var http = require("http");
 var fs = require("fs");
 
 // Set our port to 8080
-var PORT = 5500;
+var PORT = 3000;
 
 // Create our server
 var server = http.createServer(handleRequest);
@@ -20,5 +20,5 @@ function handleRequest(req, res) {
   }
 }
 server.listen(PORT, function() {
-    console.log("Server is listening on http://localhost:5500 ");
+    console.log("Server is listening on http://localhost:3000 ");
   });
